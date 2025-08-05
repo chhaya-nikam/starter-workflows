@@ -8,7 +8,7 @@ import { endGroup, error, info, setFailed, startGroup } from '@actions/core';
 interface WorkflowWithErrors {
   id: string;
   name: string;
-  errors: string[];
+  errors: string[];  
 }
 
 interface WorkflowProperties {
